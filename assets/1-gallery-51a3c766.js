@@ -3,5 +3,5 @@ import{S as n}from"./vendor-10cb7c31.js";(function(){const o=document.createElem
      <img
        class="gallery-image"
        src="${a}"
-       alt="${i}"/></a></li>`).join("");s.insertAdjacentHTML("afterbegin",l);new n(".gallery a");
-//# sourceMappingURL=1-gallery-b561e70f.js.map
+       alt="${i}"/></a></li>`).join("");s.insertAdjacentHTML("afterbegin",l);new n(".gallery a",{captions:!0,captionsData:"alt",captionPosition:"bottom",captionDelay:250});
+//# sourceMappingURL=1-gallery-51a3c766.js.map
