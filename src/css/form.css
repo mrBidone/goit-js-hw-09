@@ -1,0 +1,52 @@
+.return-link {
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    transition: all 250ms linear;
+}
+
+.return-link:hover,
+.return-link:focus {
+    color: rgb(133, 186, 243);
+}
+
+section {
+    width: 408px;
+    height: 296px;
+
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #2e2f42;
+}
+
+input {
+    max-width: 360px;
+    height: 40px;
+    padding: 8px 16px;
+}
+
+button {
+    background-color: #4E75FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    min-width: 86px;
+    height: 40px;
+    cursor: pointer;
+}
+
+button:active,
+button:hover,
+button:focus {
+    background-color: #6C8CFF;
+}
