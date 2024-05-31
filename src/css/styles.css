@@ -25,6 +25,7 @@
 
 
 .links-link {
+  margin: 0 0;
   height: 100vh;
   display: flex;
   list-style: none;
