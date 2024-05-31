@@ -1,4 +1,5 @@
 .return-link {
+    background-color: rgb(250, 246, 246);
     display: block;
     padding-left: 20px;
     text-decoration: none;
@@ -13,35 +14,55 @@
     color: rgb(133, 186, 243);
 }
 
-section {
-    width: 408px;
-    height: 296px;
 
+section {
+    height: 100vh;
+    background-color: rgb(250, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    padding: 24px 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
 }
 
 label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
     display: flex;
     flex-direction: column;
-    margin-bottom: 8px;
-    font-size: 16px;
-    color: #2e2f42;
+    gap: 8px;
 }
 
 input {
-    max-width: 360px;
     height: 40px;
-    padding: 8px 16px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    max-height: 80px;
+    margin-bottom: 10px
 }
 
 button {
+    display: flex;
     background-color: #4E75FF;
     color: #FFFFFF;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     padding: 8px 16px;
-    min-width: 86px;
-    height: 40px;
+    width: 86px;
+    max-height: 40px;
     cursor: pointer;
 }
 
